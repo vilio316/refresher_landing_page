@@ -1,6 +1,0 @@
-.grid{
-    display: grid;
-}
-.header{
-    grid-template-columns: auto 80% auto;
-}

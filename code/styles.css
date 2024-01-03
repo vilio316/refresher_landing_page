@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+}
+
+.grid{
+    display: grid;
+}
+.header{
+    grid-template-columns: auto 80% auto;
+}
+.centered_items{
+    justify-self: center;
+}
