@@ -28,6 +28,9 @@ body{
 .centered_items{
     justify-self: center;
 }
+.perfect_center{
+    place-self: center;
+}
 .nav-link{
     display: inline-block;
     padding: 0.25rem 0.5rem;
@@ -36,12 +39,18 @@ body{
     transition: all 0.5s;
 }
 .center{
-    justify-self: center;
+    place-items: center;
 }
 .nav-link:hover{
     font-size: 1.75rem;
 }
-
+.side_text{
+    padding: 0.5rem;
+}
+.two_cols{
+    grid-template-columns: 50% auto;
+    width: 80%;
+}
 @media screen and (max-width: 768px) {
     html{ font-size: 10px;}
 }
