@@ -11,7 +11,7 @@ body{
 }
 
 #hero{
-    background-image: url('/assets/02.png');
+    background-image: url('/assets/01.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: white;
@@ -24,12 +24,18 @@ body{
 }
 .header{
     grid-template-columns: auto 80% auto;
+    padding: 0.5rem;
 }
 .centered_items{
     justify-self: center;
 }
 .perfect_center{
     place-self: center;
+}
+
+.contents{
+    margin: 1rem 0;
+    padding: 0 0.5rem;
 }
 .nav-link{
     display: inline-block;
@@ -44,13 +50,44 @@ body{
 .nav-link:hover{
     font-size: 1.75rem;
 }
+
+#body{
+    background-color: #0B1D26;
+    color: white
+}
+
+#one{
+    margin-top: -1.75rem;
+    z-index: 1;
+}
 .side_text{
     padding: 0.5rem;
+    text-align: justify;
+    align-self: center;
+    font-size: 1.25rem;
 }
 .two_cols{
     grid-template-columns: 50% auto;
     width: 80%;
 }
+.side_img{
+    width: 60%;
+    border: 0.25rem solid white;
+    border-radius: 1rem ;
+}
+
+.highlight{
+    color: #FBD784;
+}
+.topic{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.footer{
+    grid-template-columns: 60% auto auto;
+}
+
 @media screen and (max-width: 768px) {
     html{ font-size: 10px;}
 }
