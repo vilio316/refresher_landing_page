@@ -113,9 +113,8 @@ h2{
 }
 
 footer{
-    grid-template-columns: 50% auto auto;
+    grid-template-columns: 65% auto auto;
     padding: 0.5rem 1rem;
-    place-items: center;
 }
 footer, .highlight{
     font-family: "DM Sans",sans-serif;
