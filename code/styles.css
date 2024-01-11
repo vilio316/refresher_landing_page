@@ -51,17 +51,36 @@ body{
     font-size: 1.75rem;
 }
 
-#body{
+#body, footer{
     background-color: #0B1D26;
     color: white
 }
 
 #one{
-    margin-top: -1.75rem;
+    margin-top: -3.5rem;
     z-index: 1;
 }
+
+#side1{
+    background-image: url(/assets/01_BG.png);
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+}
+
+#side2{
+    background-image: url(/assets/02_BG.png);
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+}
+#side3{
+    background-image: url(/assets/03_BG.png);
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+}
+
 .side_text{
-    padding: 0.5rem;
+    padding-left: 3.5rem;
+    padding-top: 2rem;
     text-align: justify;
     align-self: center;
     font-size: 1.25rem;
@@ -80,14 +99,35 @@ body{
     color: #FBD784;
 }
 .topic{
-    font-size: 2rem;
     text-transform: uppercase;
+    text-indent: 3.5rem;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+a:visited{
+    color: white
 }
 
-.footer{
+h2{
+    margin: 1rem 0;
+}
+
+footer{
     grid-template-columns: 60% auto auto;
+    padding: 0.5rem 1rem;
+}
+footer, .highlight{
+    font-family: "DM Sans",sans-serif;
+    font-weight: bolder;
+}
+.reversed{
+grid-template-columns: auto 50%;
 }
 
+a{
+    display: block;
+    text-decoration: none;
+}
 @media screen and (max-width: 768px) {
     html{ font-size: 10px;}
 }
